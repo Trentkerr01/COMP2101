@@ -28,3 +28,8 @@ sudo find / | du -aBM 2>/dev/null | sort -nr | head -n 12
 # commands to display a title
 # commands to make a list of the 12 biggest files
 # sort/format whatever to display the list properly
+
+echo "12 Largest Files on the system"
+echo "=============================="
+find / -type f 
+echo ""
